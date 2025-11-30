@@ -1,0 +1,56 @@
+.sr-only {
+  position: absolute;
+  left: -9999px;
+}
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: #111;
+}
+nav {
+    padding: 1rem;
+    background: rgba(255,255,255,0.8);
+}
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav a:focus {
+    outline: 3px solid #333
+}
+.card {
+    background: rgba(255,255,255,0.85);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+}
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+button {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #111;
+}
+button:focus, input:focus, a:focus {
+    outline: 3px solid #444;
+    outline-offset:2px;
+}
+.location-button {
+    background: none;
+    border: none;
+    padding: 4px;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
