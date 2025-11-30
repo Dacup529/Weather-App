@@ -1,4 +1,4 @@
-import {createRouter, createWebHistory} from "vue-router";
+import {createRouter, createWebHashHistory} from "vue-router";
 import Home from "../views/Home.vue";
 import Hourly from "../views/Hourly.vue";
 import FiveDay from "../views/FiveDay.vue";
@@ -10,6 +10,6 @@ const routes = [
 ];
 
 export default createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes,
 });
